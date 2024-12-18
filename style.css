@@ -1,5 +1,6 @@
 * {
     font-family: "Roboto Mono", serif;
+    font-weight: 500;
 }
 
 .intro {
@@ -28,8 +29,8 @@
     padding-left: 5%;
     text-align: left;
     align-self: center;
-    color: #dbdee3
-
+    color: #dbdee3;
+    font-size: 32px;
 }
 
 
