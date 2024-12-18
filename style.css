@@ -1,4 +1,4 @@
-* {
+body {
     font-family: "Roboto Mono", serif;
     font-weight: 500;
 }
@@ -10,7 +10,7 @@
     padding: 0;
     background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
     background-size: 200% 200%;
-    animation: fondo-movimiento 10s infinite;
+    animation: fondo-movimiento 7s infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,20 +30,32 @@
     text-align: left;
     align-self: center;
     color: #dbdee3;
-    font-size: 32px;
+    font-size: 38px;
 }
 
+.texto_transparente {
+    color: transparent;
+    background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff); 
+    background-clip: text;
+}
 
+.intro_imagen {
+    width: 40%;
+    height: 100%;
+    align-self: center;
+    border-radius: 0 20px 20px 0;
+    background-color: #121821;
+}
 
 @keyframes fondo-movimiento {
     0% {
-        background-position: 0%;
+        background-position: 0% 0%;
     }
     50% {
-        background-position: 100%;
+        background-position: 100% 100%;
     }
     100% {
-        background-position: 0%;
+        background-position: 0% 0%;
     }
     
 }
