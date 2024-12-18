@@ -1,11 +1,24 @@
 .intro {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
     background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
     background-size: 200% 200%;
     animation: fondo-movimiento 15s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_container {
+    display: flex;
+    background-color: #121821;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
 }
 
 
