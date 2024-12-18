@@ -1,11 +1,12 @@
-body {
+.intro {
     width: 100%;
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: linear-gradient(60deg, #002f41, #005F73, #0A9396, #94D2BD, #e2cd8b, #EE9B00, #CA6702, #BB3E03, #AE2012,
-    #9B2226);
+    background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
+    
 }
+
 
 
 
