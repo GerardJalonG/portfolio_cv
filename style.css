@@ -2,13 +2,17 @@ body {
     font-family: "Roboto Mono", serif;
     font-weight: 500;
     overflow-x: hidden;
+    
+}
+
+html,body, .intro {
+    margin:0;
+    padding: 0;
 }
     
 .intro {
     width: 100vw;
     height: 100vh;
-    margin: 0;
-    padding: 0;
     background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
     background-size: 200% 200%;
     animation: fondo-movimiento 7s infinite;
@@ -55,11 +59,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: rgba(18, 24, 33, 0.8);
+    box-sizing: border-box;
     position: sticky;
     top: 0;
     z-index: 100;
-
+    backdrop-filter: blur(10px);
 }
 
 .navbar_menu {    
