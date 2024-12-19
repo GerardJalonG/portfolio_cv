@@ -1,3 +1,9 @@
+html, body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto Mono", serif;
     font-weight: 500;
@@ -7,39 +13,42 @@ body {
     animation: fondo-movimiento 7s infinite;
 }
 
-html, body{
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
 
 .navbar {
-    background-color: #121821;
-    backdrop-filter: blur(10px);
-    position: sticky;
+    background-color: #121821ef;
+    backdrop-filter: blur(20px);
+    position: fixed;
     top: 0;
     z-index: 1000;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 7vh;
+    width: 100%;
     padding: 10px 20px;
 }
 
 .navbar_items{
     list-style: none;
+    color: #c3c3c3;
 }
 
 .navbar_item {
     display: inline-block;
     padding: 0px 10px;
-    
+}
+
+
+.navbar_item a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .navbar_item:hover {
     cursor: pointer;
     background-color: #0a0e1381;
     border-radius: 5px;
+    color: #f0f0f0;
 }
 
 .intro {
@@ -48,6 +57,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
 }
 
 .intro_container {
