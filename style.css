@@ -37,6 +37,8 @@ body {
     color: transparent;
     background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff); 
     background-clip: text;
+    background-size: 200% 200%;
+    animation: fondo-movimiento 7s infinite;
 }
 
 .intro_imagen {
