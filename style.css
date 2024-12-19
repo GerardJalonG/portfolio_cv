@@ -1,8 +1,9 @@
 body {
     font-family: "Roboto Mono", serif;
     font-weight: 500;
+    overflow-x: hidden;
 }
-
+    
 .intro {
     width: 100vw;
     height: 100vh;
@@ -47,6 +48,29 @@ body {
     align-self: center;
     border-radius: 0 20px 20px 0;
     background-color: #121821;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+.navbar_menu {    
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
 }
 
 @keyframes fondo-movimiento {
