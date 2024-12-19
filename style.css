@@ -2,6 +2,7 @@ html, body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -42,6 +43,7 @@ body {
 .navbar_item a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 .navbar_item:hover {
