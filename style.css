@@ -1,6 +1,10 @@
 body {
     font-family: "Roboto Mono", serif;
     font-weight: 500;
+    
+    background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
+    background-size: 200% 200%;
+    animation: fondo-movimiento 7s infinite;
 }
 
 html, body{
@@ -41,9 +45,6 @@ html, body{
 .intro {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
-    background-size: 200% 200%;
-    animation: fondo-movimiento 7s infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +81,33 @@ html, body{
     align-self: center;
     border-radius: 0 20px 20px 0;
     background-color: #121821;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121821;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.about_container {
+    display: flex;
+    background-color: #121821;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(207, 207, 207, 0.1);
+}
+
+.about_texto {
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+    color: #ffffff;
 }
 
 
