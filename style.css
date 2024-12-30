@@ -121,7 +121,7 @@ body {
     
 }
 
-.about_foto, .about_texto {
+.about_foto, .about_texto, .about_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,8 +151,14 @@ body {
     font-size: 2rem;
 }
 
-
-
+.about_button {
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    background-color: #202b3c;
+    border: none;
+    color: #dbdee3;
+}
 
 
 
