@@ -110,6 +110,8 @@ body {
 
 .about_container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: #121821;
     width: 90%;
     height: 90%;
@@ -131,15 +133,27 @@ body {
 }
 
 .about_img {
-    width: 50%;
+    width: 60%;
+    border-radius: 40px;
 }
 
 .about_texto {
+    display: flex;
+    flex-direction: column;
     width: 60%;
-    font-size: small;
-    color: #dbdee3;
+    height: 80%;
     padding: 5%;
+    line-height: normal;
+    color: #dbdee3;
 }
+
+.about_texto h3 {
+    font-size: 2rem;
+}
+
+
+
+
 
 
 @keyframes fondo-movimiento {
