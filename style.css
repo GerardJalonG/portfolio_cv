@@ -105,7 +105,7 @@ body {
     width: 100%;
     height: 100vh;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 40px 40px 0 0;
 }
 
 .about_container {
@@ -118,21 +118,27 @@ body {
     border-image: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff) 1;
     
 }
-.about_imagen {
-    flex-grow: 1;
+
+.about_foto, .about_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_foto {
+    width: 40%;
     height: 100%;
-    align-self: center;
-    border-radius: 20px 0 0 20px;
-    background-color: #121821;
+}
+
+.about_img {
+    width: 50%;
 }
 
 .about_texto {
-    flex-grow: 2;
+    width: 60%;
     font-size: small;
-    align-self: center;
-    padding: 20px;
-    text-align: left;
-    color: #ffffff;
+    color: #dbdee3;
+    padding: 5%;
 }
 
 
@@ -148,3 +154,4 @@ body {
     }
     
 }
+
