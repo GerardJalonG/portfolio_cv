@@ -110,6 +110,10 @@ body {
     padding: 20px;
 }
 
+.experiencia {
+    height: auto;
+}
+
 .about {
     border-radius: 40px 40px 0 0;
 }
@@ -190,22 +194,26 @@ body {
     color: #bbbcbe;
 }
 
-.proyecto_texto {
-    width: 50%;
-    height: 90%;
+.proyecto {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.proyecto_texto, .proyecto_imagen {
+    flex: 1;
+    margin: 10px;
+}
+
+.proyecto_imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .proyecto_titulo {
     font-size: 2rem;
     color: #f0f0f0;
-}
-
-.proyecto_imagen {
-    width: 50%;
-    height: 100%;   
 }
 
 
