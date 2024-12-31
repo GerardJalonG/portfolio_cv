@@ -185,7 +185,7 @@ body {
     padding: 20px;
     gap: 20px;
     border-radius: 20px; 
-    background-color: #122542;
+    background-color: #131b27;
     border: 2px solid #183258;
     color: #bbbcbe;
 }
@@ -201,6 +201,11 @@ body {
 .proyecto_titulo {
     font-size: 2rem;
     color: #f0f0f0;
+}
+
+.proyecto_imagen {
+    width: 50%;
+    height: 100%;   
 }
 
 
