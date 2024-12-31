@@ -97,17 +97,20 @@ body {
     background-color: #121821;
 }
 
-.about_foto, .about_texto, .about_button, .about_container, .about {
+.about_foto, .about_texto, .about_button, .about_container, .about, .experiencia_container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about {
+.about, .experiencia{
     background-color: #121821;
     width: 100%;
     height: 100vh;
     padding: 20px;
+}
+
+.about {
     border-radius: 40px 40px 0 0;
 }
 
@@ -115,6 +118,7 @@ body {
     flex-direction: row;
     background-color: #121821;
     width: 90%;
+    min-height: 90%;
     height: auto;
     box-shadow: 0 4px 8px rgba(207, 207, 207, 0.1);
     border: 3px solid transparent;
@@ -143,8 +147,9 @@ body {
     color: #dbdee3;
 }
 
-.about_texto h3 {
+.about_texto h2 {
     font-size: 2rem;
+    padding: 0 2%;
 }
 
 .about_button {
@@ -163,7 +168,24 @@ body {
     color: #f0f0f0;
 }
 
+.experiencia h2 {
+    font-size: 3rem;
+    padding: 0 5%;
+}
 
+.experiencia h4 {
+    font-size: 1.5rem;
+    padding: 0 5%;
+    color: #c3c3c3;
+}
+
+.experiencia_container {
+    width: 70%;
+    margin: 2rem auto; 
+    padding: 20px; 
+    border-radius: 20px; 
+    background-color: #c3c3c3;
+}
 
 
 @keyframes fondo-movimiento {
