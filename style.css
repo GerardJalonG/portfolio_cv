@@ -220,13 +220,18 @@ body {
 .proyecto_imagen img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px;   
+}
+
+.proyecto_imagen, .cuadrado {
+    transition: transform 0.5s ease-in;
 }
 
 .proyecto_imagen:hover , .cuadrado:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
+
 
 .proyecto_titulo {
     font-size: 2rem;
