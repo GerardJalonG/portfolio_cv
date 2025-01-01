@@ -252,7 +252,7 @@ body {
     padding: 20px;
 }
 
-.cuadrado {
+.cuadrado, .cuadrado_texto {
     width: 100px;
     height: 100px;
     background-color: #202b3c;
@@ -261,6 +261,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cuadrado_texto {
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    color: #d1d1d1;
+    font-size: 1.5rem;
 }
 
 .icono {
