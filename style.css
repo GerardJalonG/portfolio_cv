@@ -258,6 +258,9 @@ body {
     background-color: #202b3c;
     border-radius: 20px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icono {
