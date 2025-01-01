@@ -183,6 +183,13 @@ body {
     color: #c3c3c3;
 }
 
+.experiencia h5 {
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+    padding: 0 5%;
+    color: #707070;
+}
+
 .experiencia_container {
     width: 70%;
     margin: 2rem auto;
@@ -236,6 +243,27 @@ body {
     text-align: center;
     color: #c3c3c3;
     margin: 15px 0;
+}
+.cuadrados_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #202b3c;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.icono {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
 }
 
 
