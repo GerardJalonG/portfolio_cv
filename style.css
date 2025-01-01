@@ -38,6 +38,7 @@ body {
 .navbar_item {
     display: inline-block;
     padding: 0px 10px;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
 
@@ -249,7 +250,7 @@ body {
     text-align: center;
     color: #c3c3c3;
     margin: 15px 0;
-    transition: background-color 0.5s ease-in;
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
 .cuadrados_container {
     display: flex;
@@ -260,8 +261,8 @@ body {
 }
 
 .cuadrado, .cuadrado_texto {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #202b3c;
     border-radius: 20px;
     margin: 10px;
