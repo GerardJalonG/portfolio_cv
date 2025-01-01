@@ -211,10 +211,16 @@ body {
     border-radius: 10px;
 }
 
+.proyecto_imagen:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .proyecto_titulo {
     font-size: 2rem;
     color: #f0f0f0;
 }
+
 
 
 
