@@ -195,7 +195,6 @@ body {
 .experiencia_container {
     width: 70%;
     margin: 2rem auto;
-    display: flex; 
     padding: 20px;
     gap: 20px;
     border-radius: 20px; 
@@ -288,9 +287,7 @@ body {
 .educacion_container {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
-    background-color: #253c5e;
     width: 100%;
     height: auto;
     padding: 20px;
@@ -300,12 +297,18 @@ body {
 .educacion_container > .experiencia_container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
-.educacion_container > .experiencia_container p {
-    color: #c3c3c3;
+.educacion_container > .experiencia_container:first-child {
+    border: 2px solid #f0f0f0;
+}
+
+.educacion_container > .experiencia_container p:first-child {
+    color: #f0f0f0;
     font-size: 1.5rem;
-    padding: 0 5%;
+    font-weight: 800;
+    width: 80%;
 }
 
 @keyframes fondo-movimiento {
