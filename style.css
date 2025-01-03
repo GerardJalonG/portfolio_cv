@@ -350,6 +350,13 @@ body {
     margin-top: 5%;
 }
 
+.icono_redes{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff); 
+    border-radius: 10px;
+}
 
 @keyframes fondo-movimiento {
     0% {
