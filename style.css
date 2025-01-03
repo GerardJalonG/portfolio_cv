@@ -337,7 +337,7 @@ body {
     color: #c3c3c3;
 }
 
-.contacto_texto p{
+.contacto_texto p, .contacto_texto h2{
     padding: 0 10%;
 }
 
@@ -345,9 +345,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 70%;
     height: 50%;
     margin-top: 5%;
+    padding: 0 10%;
 }
 
 .icono_redes{
