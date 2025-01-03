@@ -12,7 +12,16 @@ body {
     background-size: 200% 200%;
     animation: fondo-movimiento 7s infinite;
 }
-
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 .navbar {
     background-color: hsla(216, 29%, 10%, 0.798);
@@ -25,9 +34,8 @@ body {
     align-items: center;
     height: 7vh;
     width: 89%;
-    left: 7%;
     border-radius: 0 0 15px 15px;
-    padding: 10px 20px;
+    margin-left: 15px;
 }
 
 .navbar_items{
@@ -73,7 +81,7 @@ body {
 }
 
 .intro_texto{
-    width: 60%;
+    flex: 1;
     padding-left: 5%;
     text-align: left;
     align-self: center;
@@ -90,9 +98,11 @@ body {
 }
 
 .intro_imagen {
-    width: 40%;
+    flex: 1;
     height: 100%;
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 0 20px 20px 0;
     background-color: #121821;
 }
