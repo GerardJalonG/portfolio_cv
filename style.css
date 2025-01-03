@@ -173,7 +173,7 @@ body {
     color: #f0f0f0;
 }
 
-.experiencia h2 {
+.experiencia h2, .contacto h2 {
     font-size: 3rem;
     padding: 0 5%;
     margin-top: 50px;
@@ -311,6 +311,24 @@ body {
     width: 80%;
 }
 
+.contacto {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto_container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    background-color: #121821;
+    border-radius: 20px;
+}
+.contacto h2 {
+
+}
 @keyframes fondo-movimiento {
     0% {
         background-position: 0% 0%;
