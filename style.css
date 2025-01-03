@@ -326,9 +326,31 @@ body {
     background-color: #121821;
     border-radius: 20px;
 }
-.contacto h2 {
 
+.contacto_texto {
+    position: absolute;
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #c3c3c3;
 }
+
+.contacto_texto p{
+    padding: 0 10%;
+}
+
+.contacto_redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+
 @keyframes fondo-movimiento {
     0% {
         background-position: 0% 0%;
