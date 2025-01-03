@@ -336,6 +336,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     color: #c3c3c3;
+    margin-bottom: 1rem;
 }
 
 .contacto_texto p, .contacto_texto h2{
@@ -374,6 +375,23 @@ body {
     align-items: center;
     width: 55%;
     height: 100%;
+    animation: imagenContacto 8s infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@keyframes imagenContacto {
+    0% {
+        background-image: url('assets/llama.webp');
+    }
+    50% {
+        background-image: url('assets/adios.webp');
+    }
+    100% {
+        background-image: url('assets/llama.webp');
+    }
 }
 
 
