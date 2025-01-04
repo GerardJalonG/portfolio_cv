@@ -23,6 +23,13 @@ ol, ul {
     margin: 0;
 }
 
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url('assets/RobotoMono-VariableFont_wght.ttf');
+    font-weight: 500;
+}
+
 .navbar {
     background-color: hsla(216, 29%, 10%, 0.798);
     backdrop-filter: blur(20px);
